@@ -6,11 +6,32 @@ Proyecto simple de calculadora en consola.
 
 - Python 3.10 o superior
 
+## Instalar requerimientos
+
+```bash
+py -m pip install -r requirements.txt
+```
+
 ## Ejecutar
 
 ```bash
-python -m app.main
+py -m app.main
 ```
+
+## Pruebas
+
+Ejecutar pruebas normales:
+
+```bash
+py -m pytest
+```
+
+Generar reporte HTML:
+
+```bash
+py -m pytest --html=report.html --self-contained-html
+```
+
 
 ## Estructura
 
